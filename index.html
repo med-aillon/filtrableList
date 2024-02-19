@@ -10,11 +10,45 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+      rel="stylesheet" />
   </head>
   <body>
-    
+    <nav>
+      <a href="" class="nav-logo">
+        <img src="images/logo.svg" alt="logo" />
+        <h1>Users</h1>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/dashboard.svg" alt="icone dashboard" />
+        <span class="nav-links">Dashboard</span>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/speech-bubble.svg" />
+        <span class="nav-links">Messenger</span>
+      </a>
+      <a href="#" class="bloc-link active">
+        <img src="images/server.svg" />
+        <span class="nav-links">Database</span>
+      </a>
+      <a href="#" class="bloc-link">
+        <img src="images/calendar.svg" />
+        <span class="nav-links">Calendar</span>
+      </a>
+    </nav>
+    <main class="content">
+      <div class="input-control">
+        <label for="search">
+          <img src="images/search.svg" alt="search icone" />
+        </label>
+        <input type="text" id="id" placeholder="Search for a user" />
+      </div>
+      <div class="table">
+        <h3 class="table-title">Name</h3>
+        <h3 class="table-title">Email</h3>
+        <h3 class="table-title">Phone</h3>
+      </div>
+      <div class="table-result"></div>
+    </main>
 
     <script src="script.js"></script>
   </body>
