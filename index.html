@@ -13,7 +13,7 @@
       rel="stylesheet" />
   </head>
   <body>
-    <nav>
+    <nav class="side-nav">
       <a href="" class="nav-logo">
         <img src="images/logo.svg" alt="logo" />
         <h1>Users</h1>
@@ -35,19 +35,47 @@
         <span class="nav-links">Calendar</span>
       </a>
     </nav>
-    <main class="content">
+    <main class="main-content">
       <div class="input-control">
         <label for="search">
           <img src="images/search.svg" alt="search icone" />
         </label>
         <input type="text" id="id" placeholder="Search for a user" />
       </div>
+
+      <h2 class="section-title">Database Results</h2>
       <div class="table">
         <h3 class="table-title">Name</h3>
         <h3 class="table-title">Email</h3>
         <h3 class="table-title">Phone</h3>
       </div>
-      <div class="table-result"></div>
+
+      <div class="table-results">
+        <li class="table-item">
+          <p class="main-info">
+            <img src="https://randomuser.me/api/portraits/thumb/women/82.jpg" alt="avatar picture" />
+            <span>Arnaud Pauline</span>
+          </p>
+          <p class="email">pauline.arnaud@example.com</p>
+          <p class="phone">03-21-21-12-38</p>
+        </li>
+        <li class="table-item">
+          <p class="main-info">
+            <img src="https://randomuser.me/api/portraits/thumb/women/82.jpg" alt="avatar picture" />
+            <span>Arnaud Pauline</span>
+          </p>
+          <p class="email">pauline.arnaud@example.com</p>
+          <p class="phone">03-21-21-12-38</p>
+        </li>
+        <li class="table-item">
+          <p class="main-info">
+            <img src="https://randomuser.me/api/portraits/thumb/women/82.jpg" alt="avatar picture" />
+            <span>Arnaud Pauline</span>
+          </p>
+          <p class="email">pauline.arnaud@example.com</p>
+          <p class="phone">03-21-21-12-38</p>
+        </li>
+      </div>
     </main>
 
     <script src="script.js"></script>
