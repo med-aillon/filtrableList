@@ -180,6 +180,9 @@ body {
     grid-gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   }
+  .table-results {
+    list-style-type: none;
+  }
   .table-item {
     flex-direction: column;
     padding: 20px;
